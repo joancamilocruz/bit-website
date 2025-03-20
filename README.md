@@ -1,5 +1,5 @@
 # bit-website
-# Mi nombre es JOAN CAMILO CRUZ CORTES.
+# Mi primer proyecto.
 ---
 
 ## Descripción del proyecto
