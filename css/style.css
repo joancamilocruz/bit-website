@@ -1,54 +1,75 @@
+/* GLOBALS */
 * {
     box-sizing: border-box;
 }
 
-:root {
-    --primary-color: black;
-    --secondary-color: blue;
-
+html, body {
+    height: 100%;
 }
 
-.topheader,h2 {
-    border: 1px solid black;
-    padding: 10px;
+body {
     margin: 0;
-    margin-bottom: 19px;
 }
 
-.container {
+body {
+    display: flex;
+    flex-direction: column; 
+    background-color: rgb(241, 238, 238);
+}
+
+main {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+/* CLASSES */
+
+.division {
+    display: flex;
+}
+
+
+/* HEADER */
+.titulo-pagina {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* PRIMERA FOTO */
+.primera-foto {
+    width: 300px;
+    border-radius: 30%;
+}
+
+/* MENU */
+.menu {
     display: flex;
     justify-content: space-around;
-    background-color: rgb(201, 201, 223);
-    border: 1px solid black;
-    padding: 5px;
-
-.container a {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-    }
-}
-h1, h2 {
-    background-color: rgb(97, 97, 233);
-    text-align: center;
-}
-.foto-class {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
+    font-size: larger;
+    margin-top: 20px;
+    background-color: rgb(179, 175, 175);
 }
 
-.fav-video {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/* MAIN pendiente */
+
+
+
+/* ASIDE */
+
+.imagen-millos {
+    width: 100px;
 }
-.fav-song {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.imagen-redes {
+    width: 100px;
 }
+
+
+
+/* TABLA */
+
 .mi-tabla {
     border-collapse: collapse;
     width: 100%;
