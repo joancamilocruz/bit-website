@@ -8,7 +8,7 @@ html, body {
 }
 
 body {
-    margin: 0;
+    margin: 30px 30px 30px 30px;
 }
 
 body {
@@ -18,11 +18,12 @@ body {
 }
 
 main {
-    width: 70%;
+    width: 80%;
 }
 
 aside {
-    width: 30%;
+    width: 20%;
+    height: 100%;
 }
 
 /* CLASSES */
@@ -35,13 +36,19 @@ aside {
 /* HEADER */
 .titulo-pagina {
     text-align: center;
-    font-size: x-large;
+    font-size: 26px;
+    background-image: linear-gradient(rgb(36, 36, 170), white);
 }
 
 /* PRIMERA FOTO */
 .primera-foto {
     width: 300px;
-    border-radius: 30%;
+    border-radius: 40%;
+}
+
+/* SEGUNDA FOTO */
+.tengo-hijos img {
+    border-radius: 40%;
 }
 
 /* MENU */
@@ -49,30 +56,102 @@ aside {
     display: flex;
     justify-content: space-around;
     font-size: larger;
-    margin-top: 20px;
-    background-color: rgb(179, 175, 175);
+    padding: 15px;
+    background-image: linear-gradient(rgb(36, 36, 170), white);
+
+}
+ 
+
+/* MAIN */
+
+.titulos {
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px dotted black;
+    font-size: 30px;
+}
+.quien-soy, 
+.de-donde, 
+.mi-pasion, 
+.audio-fav,
+.tengo-hijos,
+.mi-futuro,
+.cancion-fav,
+.video-fav,
+.comida-fav,
+.hobbies,
+.mis-estudios
+.division {
+    border-top: 20px;
+    padding: 10px;
+    text-align: center;
+    border-top: 30px;
+    border-bottom: 30px;
 }
 
-/* MAIN pendiente */
+/* Listas */
+.listas {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+/* VIDEO FAVORITO */
+.video-fav video {
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
 
 
 
 /* ASIDE */
 
+.aside {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+
+.div-bloque {
+flex: 1;
+display: flex;
+justify-content:  center;
+align-items: center;
+flex-direction: column;
+}
+
+
+.imagen-redes {
+    width: 250px;
+    display: flex ;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
 .imagen-millos {
     width: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
-.imagen-redes {
-    width: 100px;
-}
 
 
-
-/* TABLA */
+/* TABLAS */
 
 .mi-tabla {
     border-collapse: collapse;
     width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 25px;
 }
 
 .mi-tabla th,
@@ -84,4 +163,18 @@ aside {
 .mi-tabla td {
     padding: 10px;
     text-align: left;
+}
+
+/* FOOTER */
+.footer {
+    background-image: linear-gradient(rgb(36, 36, 170), rgb(127, 137, 231));
+ display: flex;
+ justify-content: space-around;
+ font-size: 20px;
+ padding: 20ox;
+}
+
+.division {
+    background-image: linear-gradient(rgb(120, 120, 236), white);
+
 }
