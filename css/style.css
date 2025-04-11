@@ -8,6 +8,7 @@
 html, body {
     height: 100%;
     margin: 0;
+    overflow-x: hidden;
 }
 
 body {
@@ -163,21 +164,25 @@ flex-direction: column;
 
 .mi-tabla {
     border-collapse: collapse;
-    width: 100%;
+    width: auto;
     text-align: center;
     align-items: center;
     margin-bottom: 25px;
+    background-color: rgb(214, 226, 242);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
 }
 
 .mi-tabla th,
 .mi-tabla td {
     border: 1px solid black;
+    padding: 10px;
 }
 
-.mi-tabla th,
-.mi-tabla td {
-    padding: 10px;
-    text-align: left;
+.mi-tabla th {
+    background-color: white;
 }
 
 /* FOOTER */
@@ -202,8 +207,8 @@ border: 1px solid black;
 
 .body-redes{
     margin: 0;
-    border: 2px solid black;
-    width: 1200px;
+    border: 1px solid black;
+    width: 992px;
     height: 750px;
     margin-left: auto;
     margin-right: auto;
@@ -242,7 +247,7 @@ border: 1px solid black;
     align-items: center;
     justify-content: space-around;
     justify-items: auto;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
 
     
