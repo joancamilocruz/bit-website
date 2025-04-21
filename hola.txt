@@ -1,0 +1,126 @@
+.
+
+
+    
+
+    
+    main, .main-contacto, .main-redes{
+        width: 100%;
+    }
+    
+    aside{
+    display: block;
+    width: 0%;    
+    }
+    
+    .menu {
+        flex-direction: row;
+        font-size: 20px;
+    }
+    
+    .video-fav video,
+    .primera-foto {
+        width: 280px;
+    }
+    
+    .imagen-redes, .imagen-millos {
+        width: 80px;
+        display: none;
+    }
+    
+    .segunda-foto{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    
+    .cancion-fav{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    
+    .footer,
+    .footer-contacto,
+    .footer-redes {
+      flex-direction: row;
+      font-size: 15px;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .body-redes {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding:10px;
+    }
+    
+    .encabezado,
+    .main-redes,
+    .footer-redes{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .main-redes {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    
+    }
+    
+    .main-redes div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .main-redes img {
+        width: 100px;
+        height: auto;
+      }
+    
+    
+      .primertitulo {
+        font-size: 28px;
+      }
+    
+      a {
+        font-size: 20px;
+      }
+    }
+    
+    .github img {
+        transform: scale(0.6);
+      }
+    
+      .main-contacto img {
+        display: flex;
+        flex-direction: row;
+      }
+    
+      .body-contacto {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding:10px;
+    }
+    
+    .footer{
+        text-align: center;
+        flex-direction: column;
+        padding: 0;
+    }
+        
+  
