@@ -299,3 +299,390 @@ aside img {
 }
 
 
+/* 768px */
+@media screen and (min-width: 768px) {
+  :root {
+    --first-tittles: 40px;
+    --tittles-size: 26px;
+    --text-size: 20px;
+  }
+
+  html,
+body {
+  width: 768px;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+  .menu {
+    font-size: 32px;
+  }
+
+  body,
+.body-redes,
+.body-contacto {
+  color: var(--main-textcolor);
+  background-color: var(--second-bgcolor);
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+main,
+aside,
+footer,
+.body-contacto,
+.body-redes {
+  background-image: var(--bgimagecolor2);
+}
+
+main {
+  width: 100%;
+}
+
+aside {
+  width: 100%;
+  height: auto;
+  display: block;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+aside img {
+  width: 250px;
+}
+.imagen-millos{
+  width: 70px;
+}
+
+  .footer,
+  .footer-redes,
+  .footer-contacto {
+    font-size: 15px;
+  }
+
+/* GENERAL */
+
+.primertitulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--first-tittles);
+}
+
+.titulos {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px dotted rgb(36, 36, 170);
+  font-size: var(--tittles-size);
+  font-family: "Emilys Candy", serif;
+  background-color: aliceblue;
+}
+
+.textos-mainpage {
+  font-size: var(--text-size);
+  font-family: "Playfair Display", serif;
+  line-height: 1.5;
+}
+
+/* REDES */
+
+.body-redes {
+  margin: 0;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: auto;
+  grid-template-areas:
+    "encabezado"
+    "instagram"
+    "tiktok"
+    "github"
+    "linkedin"
+    "footer-redes";
+}
+
+
+.encabezado {
+  grid-area: encabezado;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: repeating-linear-gradient(rgb(192, 192, 240), white);
+  padding: 20px;
+  text-align: center;
+}
+
+.instagram,
+.tiktok,
+.github,
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: repeating-linear-gradient(rgb(241, 243, 177), white);
+  padding: 10px;
+  font-size: 30px;
+  
+}
+
+.github {
+  grid-area: github;
+  padding: 40px;
+  gap: 10px;
+}
+
+.linkedin {
+  grid-area: linkedin;
+}
+
+.instagram {
+  grid-area: instagram;
+}
+
+.tiktok {
+  grid-area: tiktok;
+}
+
+.footer-redes {
+  grid-area: footer-redes;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  background-image: repeating-linear-gradient(rgb(192, 192, 240), white);
+  flex-direction: column;
+}
+
+/* GRID CONTACTAME HTML */
+
+.body-contacto {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header-contacto,
+.main-contacto,
+.footer-contacto,
+.labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  padding: 15px;
+  background-image: repeating-linear-gradient(rgb(192, 192, 240), white);
+}
+
+.labels {
+  gap: 5px;
+}
+
+.footer-contacto{
+  font-size: 20px;
+}
+
+/* 992px */
+@media screen and (min-width: 992px) {
+  
+  :root {
+    --first-tittles: 45px;
+    --tittles-size: 28px;
+    --text-size: 22px;
+  }
+  
+  body,
+  .body-redes,
+  .body-contacto {
+    width: 992px;
+    margin: 0 auto;
+    overflow-x:hidden;
+  }
+
+  .menu {
+    font-size: 35px;
+  }
+
+header,
+main,
+aside,
+footer,
+.body-contacto,
+.body-redes {
+  background-image: var(--bgimagecolor1);
+}
+
+main {
+  width: 100%;
+}
+
+aside {
+  width: 100%;
+  height: auto;
+  display: block;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+aside img {
+  width: 400px;
+}
+.imagen-millos{
+  width: 100px;
+  padding-bottom: 5px;
+}
+
+  .footer,
+  .footer-redes,
+  .footer-contacto {
+    font-size: 25px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+/* GENERAL */
+
+.primertitulo {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--first-tittles);
+}
+
+.titulos {
+  text-align: center;
+  text-transform: uppercase;
+  border: 1px dotted rgb(36, 36, 170);
+  font-size: var(--tittles-size);
+  font-family: "Emilys Candy", serif;
+  background-color: rgb(166, 198, 226);
+}
+
+.textos-mainpage {
+  font-size: var(--text-size);
+  font-family: "Playfair Display", serif;
+  line-height: 1.5;
+}
+
+.primera-foto {
+  width: 250px;
+}
+
+/* REDES */
+
+.body-redes {
+  margin: 0;
+  width: 992px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: auto;
+  grid-template-areas:
+    "encabezado encabezado encabezado encabezado"
+    "instagram instagram instagram instagram" 
+    "tiktok tiktok tiktok tiktok"
+    "github github github github"
+    "linkedin linkedin linkedin linkedin"
+    "footer-redes footer-redes footer-redes footer-redes";
+}
+
+
+.encabezado {
+  grid-area: encabezado;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: repeating-linear-gradient(rgb(192, 192, 240), white);
+  padding: 20px;
+  text-align: center;
+}
+
+.instagram,
+.tiktok,
+.github,
+.linkedin {
+  width: 992px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: repeating-linear-gradient(rgb(239, 239, 232), white);
+  padding: 10px;
+  font-size: 30px;
+  
+}
+
+.github {
+  grid-area: github;
+  padding: 40px;
+  gap: 10px;
+}
+
+.linkedin {
+  grid-area: linkedin;
+}
+
+.instagram {
+  grid-area: instagram;
+}
+
+.tiktok {
+  grid-area: tiktok;
+}
+
+.footer-redes {
+  grid-area: footer-redes;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  text-align: center;
+  background-image: repeating-linear-gradient(rgb(192, 192, 240), white);
+  flex-direction: row;
+}
+
+/* GRID CONTACTAME HTML */
+
+.body-contacto {
+  width: 992px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.header-contacto,
+.main-contacto,
+.footer-contacto,
+.labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 100%;
+  padding: 15px;
+  background-image: repeating-linear-gradient(rgb(192, 192, 240), white);
+}
+
+.labels {
+  gap: 5px;
+}
+
+.footer-contacto{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+}
+}
